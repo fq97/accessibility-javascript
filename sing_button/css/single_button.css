@@ -1,0 +1,33 @@
+#hBar {
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: red;
+	opacity: 0.2;
+	height: 10px;
+	visibility: hidden;
+}
+
+#vBar {
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: red;
+	opacity: 0.2;
+	width: 10px;
+	visibility: hidden;
+}
+
+button {
+	position: fixed;
+	height: 100px;
+	width: 100px;
+	bottom: 0;
+	right: 0;
+	background-color: blue;
+	opacity: 0.8;
+	text-color: white;
+	font-size: 50px;
+}
